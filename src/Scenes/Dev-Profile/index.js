@@ -4,6 +4,7 @@ import "./../../../src/dev-profile.css";
 import Avatar from "./../../Components/Avatar/index";
 import Body from "./../../Components/Body/index";
 import Skills from "./../../Components/Skills/index";
+import Header from "./../../Components/Name/index";
 
 DevProfile.propTypes = {};
 
@@ -12,6 +13,7 @@ function DevProfile(props) {
     <div>
       <div class="card">
         <Avatar></Avatar>
+        <Header></Header>
         <Body></Body>
         <div className={"skill"}>
           <Skills
