@@ -27,12 +27,13 @@ h1 {
 }
 
 .avatar {
+  max-height: 250px;
   width: 100%;
   display: block;
 }
 
 .data {
-  padding: 32px;
+  padding: 20px;
   padding-top: 24px;
 }
 

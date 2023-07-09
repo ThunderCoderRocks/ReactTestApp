@@ -15,28 +15,7 @@ function DevProfile(props) {
         <Avatar></Avatar>
         <Header></Header>
         <Body></Body>
-        <div className={"skill"}>
-          <Skills
-            SkillsTopic={"JavaScript"}
-            SkillsBC={"yellow"}
-            SkillsBr={"25px"}
-            SkillsFF={"cursive"}
-          ></Skills>
-
-          <Skills
-            SkillsTopic={"ReactJs"}
-            SkillsBC={"lightgreen"}
-            SkillsBr={"25px"}
-            SkillsFF={"cursive"}
-          ></Skills>
-
-          <Skills
-            SkillsTopic={"AspNetCore"}
-            SkillsBC={"lightcoral"}
-            SkillsBr={"25px"}
-            SkillsFF={"cursive"}
-          ></Skills>
-        </div>
+        <Skills></Skills>
       </div>
     </div>
   );

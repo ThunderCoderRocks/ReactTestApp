@@ -7,8 +7,8 @@ Header.propTypes = {
 
 function Header(props) {
     return (
-        <div style={{paddingleft: '50px'}} >
-            <h1>
+        <div>
+            <h1 style={{marginLeft: '40px'}}>
             Abhijeet Sinha
             </h1>
         </div>
